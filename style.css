@@ -1,89 +1,110 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(120deg, #74ebd5, #acb6e5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-image: url(In\ The\ Zone.gif);
-    background-repeat: no-repeat;
-    background-position:center ;
-  }
-
-  .form-container {
-    background: #ffffff63;;
-    padding: 10px;
-    border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
-  }
-
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-  }
-
-  .input-group {
-    margin-bottom: 20px;
-  }
-
-  .input-group label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: 600;
-    color: #555;
-  }
-
-  .input-group input,
-  .input-group textarea {
-    width: 100%;
-    padding: 10px 14px;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-  }
-
-  .input-group input:focus,
-  .input-group textarea:focus {
-    border-color: #74b9ff;
-    outline: none;
-  }
-
-  .input-error {
-    border-color: #e74c3c !important;
-  }
-
-  button {
-    justify-self: center;
-    justify-content: center;
-    width: 60%;
-    display: flex;
-    padding: 12px;
-    background-color: #0984e3;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-  button:hover {
-    background-color: #74b9ff;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #74ebd5, #acb6e5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(Ilustración\ de\ tecnología\ informática\,\ portátil\ blanco\ en\ diseño\ isométrico\ de\ circuito\ sobre\ fondo\ azul_\ _\ Vector\ Premium.jpg);
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: cover;
+}
 
-  .success-message {
-    text-align: center;
-    color: #2ecc71;
-    margin-top: 20px;
-  }
+.form-container {
+  background: #ffffff63;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-row {
+  display: flex;
+  gap: 15px;
+}
+
+.input-row .input-group {
+  flex: 1;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #74b9ff;
+  outline: none;
+}
+
+.input-error {
+  border-color: #e74c3c !important;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  display: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0984e3;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #74b9ff;
+}
+
+.success-message {
+  text-align: center;
+  color: #2ecc71;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.password-match {
+  color: #2ecc71;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  display: none;
+}
